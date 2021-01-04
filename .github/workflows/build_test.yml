@@ -2,6 +2,8 @@ name: Build Tests
 
 on:
   push:
+    branches-ignore:
+      - "*-thesis"
     paths-ignore:
       - ".github/**"
       - ".gitattributes"
